@@ -1,0 +1,15 @@
+animals = ["Lion", "Tiger", "Dogs", "Cows", "Cats"]
+for x in animals:
+  print(x, end=" ")
+
+animals.pop(1)
+
+print("\n")
+for x in animals:
+  print(x, end=" ")
+
+animals.remove("Cows")
+
+print("\n")
+for x in animals:
+  print(x, end=" ")
